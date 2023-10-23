@@ -106,4 +106,20 @@ say(f"{bob} was {very} {exited} at the {succsess} of his shop and {decided} to g
 print("----------------------------------------------------")
 say("ok thats was good but i have a plan for how to get moore bang for our buck with these words")
 say("here is the plan")
-say("I have built a robot that will take all of the words we have ")
+say("I have built a robot that will take all of the words we have and use them to make a better sentance")
+say("what do you say? wana try it out?")
+say("great!")
+say("BOOTING WORD MASHER.exe")
+word_wall = [open,customer,becky,tom,day,nice,very,succsess,ten,nine,obj,good] 
+print("----------------------------------------------------")
+i = 0
+while i<10:
+    say(word_wall[random.radint(0,len(word_wall)])
+    i += 1
+
+
+print("----------------------------------------------------")
+
+
+
+
