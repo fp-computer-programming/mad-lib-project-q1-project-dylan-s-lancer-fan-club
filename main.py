@@ -1,11 +1,10 @@
 #imports simple tools 
 import time 
 import random 
-import math
 
 #defins my say comand: a simple comand that lets me wait a secont before the next line airs to let the game feel beter 
 def say (sean):
-    time.sleep(1)
+    time.sleep(.7)
     print(str(sean))
     
 #greets the player and explains the rules  
@@ -20,11 +19,9 @@ say(f"I hope you are ready becuse we are about to start")
 #asks the player for the words in the game
 lone = input("adjective")
 bob = input("name")
-he = input(f"{bob}s pronuns ex:he/him")
-pronouns = "/".split(he)
-he = pronouns[0]
-him = pronouns[1]
-decided = input("synonem for concluded")
+he = input(f"{bob}s first pronun ex:he")
+him = input(f"{bob}s seccond pronun ex:him")
+decided = input("synonem for decided")
 bakesale = input("event")
 gatherd = input("past tense verb")
 cookingsuplies = input("thing")
@@ -38,6 +35,7 @@ say ("are you ready?")
 #fakes the loadtime to make the paragraph feel more impactful
 say("calculateing...")
 time.sleep(3)
+#prints a paragraph of the story
 print("----------------------------------------------------")
 say(f"once apon a time there was a {lone} jesuite named {bob}")
 say(f"one day {he} {decided} {he} wanted to host a {bakesale}")
@@ -57,7 +55,7 @@ exited = input("adjective")
 forever = input("time")
 world = input("oranisation")
 difrence = input("synonim for difrence")
-cotribute = input("synonim for add")
+cotribute = input("to add")
 shed = input("location")
 sell = input("verb")
 product = input("noun")
@@ -67,6 +65,7 @@ say("perfect this is exectly what I needed")
 #fakes the loadtime to make the paragraph feel more impactful
 say("calculateing...")
 time.sleep(3)
+#prints a paragraph of the story
 print("----------------------------------------------------")
 say(f"{bob} was ready to host the {bakesale}")
 say(f"{he} was {quite} {exited} becuse since {forever} {he} wanted to host a {bakesale}")
@@ -76,10 +75,10 @@ say(f"then he put the {cookies} on the {shelf}")
 say(f"time to {start} the sale")
 print("----------------------------------------------------")
 say("huh that was fun")
-say("im kinda mad that we do this much work for so little payoff")
-say("I think i have a plan.")
-say("For now lets get some more words")
-#
+say("im kinda geing a little addicted")
+say("I need more words")
+say("give me more words")
+#asks the user for more words
 open = input("to open")
 customer = input("client")
 becky = input("name")
@@ -92,18 +91,46 @@ ten = input("number")
 nine = input("number")
 obj = input("noun")
 good = input("quality")
-#
+orderd = input("plural verb")
+#fakes the loadtime to make the paragraph feel more impactful
 say("calculateing...")
 time.sleep(3)
+#prints a paragraph of the story
 print("----------------------------------------------------")
 say(f"Now that {bob} {open} the {bakesale} {he} {start}ed to recive {customer}")
-say(f"first he saw {becky}, {becky} was {nice} and orderd {ten} {cookies}")
-say(f"{becky}, told him the shack was {quite} {nice}")
-say(f"next he saw {tom}, {tom} orderd {nine} {cookies}")
+say(f"first he saw {becky}, {becky} was {nice} and {orderd} {ten} {cookies}")
+say(f"{becky}, told {him} the {shed} was {quite} {nice}")
+say(f"next he saw {tom}, {tom} {orderd} {nine} {cookies}")
 say(f"{tom} told {bob} the {cookies} were {quite} {good} and gave him a tip")
 say(f"this was the most succsess {bob} had ever experienced and it made him feel like a {obj}")
 say(f"{bob} was {very} {exited} at the {succsess} of his shop and {decided} to give it another {day}.")
 print("----------------------------------------------------")
-say("ok thats was good but i have a plan for how to get moore bang for our buck with these words")
-say("here is the plan")
-say("I have built a robot that will take all of the words we have ")
+say("ok thats was good but need more")
+say("come on man one last streach we can do it!")
+#asks the user for more words
+resaunding = input("adverb")
+lot = input("plural verb")
+money = input("noun")
+cancer = input("adjective")
+life = input("noun")
+recherch = input("noun")
+compleate = input("noun")
+fuffiled = input("pural verb")
+purpuse = input("noun")
+#fakes the loadtime to make the paragraph feel more impactful
+say("calculateing...")
+time.sleep(3)
+#prints a paragraph of the story
+print("----------------------------------------------------")
+say(f"{bob}s {bakesale} was a {resaunding} {succsess}")
+say(f"{he} made a {lot} of {money} for {cancer} {recherch}")
+say(f"{bob} finaly felt that his {life} had {purpuse}")
+say(f"{bob}s {life} was finaly {compleate}")
+say(f"{bob} was {fuffiled}")
+print("----------------------------------------------------")
+say("well that was kinda a copout")
+say("its almost like the creator reached the bare minimum and got bored writeing these templates")
+say("huh")
+say("Thanks anyway it was nice haveing you")
+say("goodbye")
+#dont blame me this was repetitive
